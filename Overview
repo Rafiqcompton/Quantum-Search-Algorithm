@@ -1,0 +1,3 @@
+
+Grover's algorithm is a quantum algorithm for searching an unstructured database with N entries in O(sqrt(N)) time and using O(log(N)) storage.
+It provides a quadratic speedup, unlike classical algorithms that require O(N) time to solve the same problem.
