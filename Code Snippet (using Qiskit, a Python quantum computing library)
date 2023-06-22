@@ -1,0 +1,13 @@
+from qiskit import QuantumCircuit, execute, Aer
+from qiskit.visualization import plot_histogram
+
+def initialize_s(qc, qubits):
+    """Apply a H-gate to 'qubits' in qc"""
+    for q in qubits:
+        qc.h(q)
+    return qc
+
+n = 2
+grover_circuit = QuantumCircuit(n)
+grover_circuit = initialize_s(grover_circuit, [0,1])
+grover_circuit.draw()
