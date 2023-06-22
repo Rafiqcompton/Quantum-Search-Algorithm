@@ -1,0 +1,2 @@
+This code initializes a quantum circuit and applies a Hadamard gate to each qubit, putting them into a superposition of states. 
+This is the first step in Grover's algorithm.
